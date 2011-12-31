@@ -4,5 +4,9 @@ class PagesController < ApplicationController
 
   def contact
   end
+  
+  def about
+    @title = 'ror learning by example'
+  end
 
 end
